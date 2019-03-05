@@ -5,18 +5,21 @@
 </head>
 <body>
 
-<header>
+
+<header class="row">
     @include('includes.header')
 </header>
 
-<main role="main">
+<br>
 
     @yield('content')
+
     <footer class="row">
         @include('includes.footer')
     </footer>
 
-</main>
+
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
